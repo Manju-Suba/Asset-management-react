@@ -1,0 +1,163 @@
+.maincard {
+    width: 100%;
+    padding: 35px 30px 50px 30px;
+}
+
+.table-hd.ant-table-wrapper .ant-table-thead>tr>th {
+    border-top: 1px solid #f0f0f0;
+    background: none !important;
+    padding: 16px 6px 16px 8px !important;
+    text-align: center;
+}
+
+.table-hd.audit-table.ant-table-wrapper .ant-table-thead>tr>th {
+    padding: 16px 0px 16px 24px !important;
+    text-align: unset !important;
+}
+
+.table-hd.table-asset-creation.ant-table-wrapper .ant-table-thead>tr>th {
+    border-top: 1px solid #f0f0f0;
+    background: none !important;
+    padding: 16px !important;
+}
+
+.table-hd.ant-table-wrapper .ant-table-container table>thead>tr:first-child>*:first-child {
+    border-start-start-radius: 0px !important;
+}
+
+.table-hd.ant-table-wrapper .ant-table-tbody>tr>td {
+    font-size: 12px;
+    font-weight: 700;
+    padding: 9px 4px 9px 4px !important;
+    text-align: center;
+}
+
+.table-hd.audit-table.ant-table-wrapper .ant-table-tbody>tr>td {
+    padding: 9px 0px 9px 24px !important;
+    text-align: unset !important;
+}
+
+.table-hd.table-asset-creation.ant-table-wrapper .ant-table-tbody>tr>td {
+    font-size: 12px;
+    font-weight: 700;
+    padding: 9px !important;
+    text-align: center !important;
+}
+
+.breadCrumb-pad {
+    padding-top: 0px;
+    padding-left: 8px;
+}
+
+.select-ant-cus .ant-select-selector {
+    border: 1px solid #f3f3f3 !important;
+}
+
+.select-ant-cus .ant-select-single.ant-select-show-arrow .ant-select-selection-item {
+    font-size: 12px !important;
+    color: #c7c7c7 !important;
+}
+
+.select-ant-cus .ant-select .ant-select-arrow {
+    height: 15px !important;
+    font-size: 9px !important;
+}
+
+.ant-table-wrapper .ant-table-thead>tr>th:not(:last-child):not(.ant-table-selection-column):not(.ant-table-row-expand-icon-cell):not([colspan])::before {
+    display: none;
+}
+
+.table-hd-fs {
+    color: #919eab;
+    font-size: 12px;
+    font-weight: 600;
+}
+
+/* .tab-ind-sty .css-7mcwe1-MuiTabs-indicator {
+    width: 29px !important;
+    height: 4px;
+    border-radius: 10px;
+  }
+   */
+
+.tob-cen {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 8px 25px;
+}
+
+.arrow-back {
+    font-size: 16px;
+    color: #919eab;
+}
+
+.label-style {
+    font-size: 12px;
+    color: #b0aeae;
+}
+
+.mar-top {
+    padding-top: 0px !important;
+}
+
+.no-spinner::-webkit-inner-spin-button,
+.no-spinner::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+.no-spinner {
+    -moz-appearance: textfield;
+}
+
+.buttontype .MuiListItemIcon-root svg {
+    width: 18px;
+    height: 18px;
+}
+
+.profile-box {
+    width: 40px;
+    height: 40px;
+    background: #fff;
+    display: inline-block;
+}
+
+.profile-box:hover {
+    background: #fff;
+}
+
+.buttontype h6.MuiTypography-h6 {
+    font-weight: 700 !important;
+    margin-left: 4px;
+}
+
+@media only screen and (max-width: 1024px) {
+    .list-border {
+        border: 1px solid #ddd;
+    }
+}
+
+.ant-form-item.formAssetClass {
+    height: 50px !important;
+}
+
+
+.tag-pending .ant-tag-checkable:hover {
+    background-color: #ffecb3; 
+    color: #d4a60f;
+  }
+  
+  .tag-pending .ant-tag-checkable-checked {
+    background-color: #ffecb3;
+    color: #d4a60f;
+  }
+  .tag-completed .ant-tag-checkable:hover {
+    background-color: #d9f7be; 
+    border-color: #d9f7be;
+  }
+  
+  .tag-completed .ant-tag-checkable-checked {
+    background-color: #d9f7be;
+    color: #52c41a;
+  }
